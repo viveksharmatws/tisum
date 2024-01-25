@@ -17,8 +17,8 @@ const TopRatedServices = () => {
           </div>
 
           <div className=" mt-[60px]  mb-[30px]  w-full rounded-[30px] items-center justify-start bg-[#F8F8F9] p-[30px]">
-            <div className="flex items-center justify-start gap-6 md:gap-11 ">
-              <div className="p-6 sm:p-10 border border-[#DFDFE0] rounded-[20px] shrink-0 ">
+            <div className="flex max-sm:flex-col items-center justify-start gap-6 md:gap-11 ">
+              <div className=" max-sm:justify-start p-6 sm:p-10 border border-[#DFDFE0] rounded-[20px] shrink-0 ">
                 <Image
                   src="/img/Calendar_700million.svg"
                   width={35}

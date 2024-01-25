@@ -93,16 +93,20 @@ const Searchbar = () => {
            "
             >
               <PopoverTrigger asChild>
+                <div className="flex gap-2">
+
                 <Image
                   alt="search with date logo"
                   src="/img/Tear-Off_Calendar.svg"
                   width={24}
                   height={24}
                 />
-              </PopoverTrigger>
 
-              <div className="z-50">
                 {date ? format(date, "PPP") : <span>Pick a date</span>}
+                </div>
+
+              </PopoverTrigger>
+              <div className="z-50">
 
                 <PopoverContent className="w-auto mt-10 ml-40">
                   <div className="bg-white rounded-[360px]  flex flex-col px-7 py-7">
@@ -142,18 +146,20 @@ const Searchbar = () => {
             "
             >
               <PopoverTrigger asChild>
-                <Image
-                  alt="search with  any time  logo"
-                  src="/img/Clock.svg"
-                  width={24}
-                  height={24}
-                  className=""
-                />
-              </PopoverTrigger>
+                <div className="flex gap-4">
+                  <Image
+                    alt="search with  any time  logo"
+                    src="/img/Clock.svg"
+                    width={24}
+                    height={24}
+                    className=""
+                  />
 
-              <span className="py-4 pr-[17px] capitalize; ">
-                {time ? time : <span>Any time</span>}
-              </span>
+                  <span className="py-4 pr-[17px] capitalize; ">
+                    {time ? time : <span>Any time</span>}
+                  </span>
+                </div>
+              </PopoverTrigger>
               <PopoverContent className="w-auto mt-10 ml-[300px] rounded-xl">
                 <div className=" flex flex-col px-7 py-7">
                   <div className="flex gap-3 mb-5 bg-white  ">
@@ -187,10 +193,7 @@ const Searchbar = () => {
                   </div>
                   <div className="flex w-full gap-4 min-w-[250px]">
                     <div className="px-4 py-3 border rounded-md border-gray_four w-full">
-                      <Select
-                      
-                      
-                      >
+                      <Select>
                         <SelectTrigger className="focus:outline-none  border-none">
                           <SelectValue placeholder="From" />
                         </SelectTrigger>
@@ -209,9 +212,7 @@ const Searchbar = () => {
                       </Select>
                     </div>
                     <div className="px-4 py-3 border rounded-md border-gray_four w-full">
-                      <Select
-                    
-                      >
+                      <Select>
                         <SelectTrigger className="focus:outline-none border-none">
                           <SelectValue placeholder="To" />
                         </SelectTrigger>
