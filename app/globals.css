@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poly&family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,  h3, h5, h6 {
+  font-family: 'Poly', serif !important;
+}
+
+p ,h4,span,a{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.search-bar {
+  font-family: 'Poppins', sans-serif;
+}
+
+input {
+  outline: none; 
+  border: none;
+
+}
+
+
+
+@layer utilities {
+
+  .Header{
+    @apply bg-[#344255] py-4 relative; 
+  }
+
+  .homebanner{
+    @apply bg-[#344255] relative  
+  }
+  
+  .container {
+    @apply max-w-[1280px] w-full  mx-auto;
+  }
+  .Header_wrapper{
+    @apply  flex  py-0 px-[20px] lg:px-10 justify-between items-center;
+  }
+  .navlinks_text{
+    @apply text-[16px] font-normal leading-6 text-white;
+  }
+
+  .gradient_top{
+    @apply bg-[url("/img/GradientT.png")]   min-w-full min-h-full  absolute top-[-150px] right-0 bg-no-repeat bg-right !pointer-events-auto !z-10
+  }
+
+  
+  .gradient_bottom{
+    @apply bg-[url("/img/GradientB.png")] min-w-full min-h-full  absolute bottom-0 xl:bottom-[-135px] max-xl:opacity-50 left-0 bg-no-repeat bg-left !pointer-events-auto !z-10
+  }
+
+  .signup_button{
+    @apply  flex items-center justify-center min-h-12  py-2.5 px-4 shrink-0 gap-2 text-[16px] font-normal leading-6 text-white border rounded-[360px] min-w-[100] w-full  cursor-pointer ;
+
+  }
+
+.homebanner_wrapper{
+
+  @apply flex flex-col pt-[120px] pb-[100px] xl:pb-[200px]
+}
+
+
+.tisum_logo_footer{
+@apply 
+}
+
+.footer_heading{
+  @apply text-white text-[20px] font-normal font-poppins  mb-6;
+}
+
+.link_footer_check{
+  @apply text-gray_three font-poppins font-normal text-[14px] mb-[12px];
+}
+
+.footer_Ptt_links {
+
+ @apply pt-[10px] pb-[20px] max-sm:flex-col sm:flex items-center justify-center  px-10 text-gray_three gap-1 md:gap-4 font-normal ;
+}
+
+.bussiness_section{
+   @apply bg-[url('/img/yellowbackground.png')] bg-no-repeat;
+}
+
+.Top_rated{
+  @apply mb-[100px]
+}
+
+.expty_board{
+  @apply  border-[6px] border-black rounded-[28px] max-lg:w-full max-lg:h-screen mt-10 lg:min-w-[930px] max-md:h-svh lg:min-h-[729px] bg-white 
+}
+
+}
