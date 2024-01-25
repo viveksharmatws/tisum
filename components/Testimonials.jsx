@@ -34,7 +34,7 @@ const Testimonials = () => {
                     what people say about us
                   </h2>
                   <p className="text-[18px] font-normal gray_two font-poppins leading-normal">
-                    we are proud of what our reviewer's have to say
+                    we are proud of what our reviewers have to say
                   </p>
                 </div>
                 <div className="flex justify-start gap-5 pt-12 xl:pt-6 ">
