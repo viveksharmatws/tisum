@@ -46,7 +46,7 @@ const Testimonials = () => {
                   />
 
                   <Image
-                    src="/img/Arrowright.png"
+                    src="/img/arrowright.png"
                     width={50}
                     height={50}
                     alt="right arrow"

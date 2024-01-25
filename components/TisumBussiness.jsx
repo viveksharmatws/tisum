@@ -24,7 +24,7 @@ const TisumBussiness = () => {
             <div className="  max-sm:max-w-[500px] max-lg:mt-7  p-4 sm:p-7 rounded-[30px] border-2 border-[#E8E8E8] flex flex-col space-y-2 max-h-[126px] max-md:mt-10 ">
               <div className="flex items-center gap-3">
                 <h2  className="text-[16px] font-medium font-poppins">Excellent 5/5</h2>
-                <Image  src="/img/brightstar.png" alt="star image" width={25} height={25}/>
+                <Image  src="/img/Brightstar.png" alt="star image" width={25} height={25}/>
               </div>
               <div className="flex items-center gap-3">
                 <p className="text-gray font-poppins font-normal leading-8 text-[14px] sm:text-[18px] ">over 1250 reviews on </p>
