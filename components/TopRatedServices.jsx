@@ -16,9 +16,10 @@ const TopRatedServices = () => {
             </p>
           </div>
 
-          <div className=" mt-[60px]  mb-[30px]  w-full rounded-[30px] items-center justify-start bg-[#F8F8F9] p-[30px]">
-            <div className="flex max-sm:flex-col items-center justify-start gap-6 md:gap-11 ">
-              <div className=" max-sm:justify-start p-6 sm:p-10 border border-[#DFDFE0] rounded-[20px] shrink-0 ">
+          
+          <div className="p-10 mt-[60px] mb-[30px]  rounded-[30px] relative bg-[#F8F8F9]  ">
+            <div className=" flex max-md:justify-start md:flex max-md:flex-col max-md:space-y-[44px] md:items-center">
+              <div className="max-md:w-[100px] justify-center p-6 md:p-10 border border-[#DFDFE0] rounded-[20px] shrink-0 ">
                 <Image
                   src="/img/Calendar_700million.svg"
                   width={35}
@@ -26,13 +27,16 @@ const TopRatedServices = () => {
                   alt="calendar"
                 />
               </div>
-              <div className="max-sm:flex-col sm:flex items-center gap-7">
-                <h2 className="text-[28px]  leading-8 sm:mb-0 mb-2 font-normal text-gray font-poly">
-                  700 million+
-                </h2>
-                <span className="text-[16px] sm:text-[18px]  font-normal  font-poppins">
-                  Appointments booked on Tisume
-                </span>
+
+              <div className=" flex items-center  ">
+                <div className=" max-md:flex-col sm:flex items-start md:items-center md:gap-7  md:pl-11 ">
+                  <h2 className="text-[28px]  leading-8 sm:mb-0  font-normal text-gray font-poly">
+                    700 million+
+                  </h2>
+                  <span className="text-[16px] sm:text-[18px]  font-normal  font-poppins">
+                    Appointments booked on Tisume
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -54,10 +58,15 @@ const TopRatedServices = () => {
                     <h3 className="text-[28px] font-normal font-poly text-gray">
                       100,000+
                     </h3>
-                    <span>countries using Tisume </span>
+                    <span>Countries using Tisume </span>
                   </div>
                   <div className="absolute bottom-10 right-10 pl-3">
-                    <Image  src="/img/Shakehandlight.svg" alt="shakehand" width={100} height={100}   />
+                    <Image
+                      src="/img/Shakehandlight.svg"
+                      alt="shakehand"
+                      width={100}
+                      height={100}
+                    />
                   </div>
                 </div>
               </div>
@@ -80,10 +89,16 @@ const TopRatedServices = () => {
                     <h3 className="text-[28px] font-normal font-poly text-gray">
                       100,000+
                     </h3>
-                    <span>partner businesses </span>
+                    <span>Partner businesses </span>
                   </div>
                   <div className="absolute bottom-10 right-10 pl-3">
-                    <Image  src="/img/earthLight.png" alt="shakehand" width={100} height={100} className="sm:w-[100px] xs:w-[70px]" />
+                    <Image
+                      src="/img/earthLight.png"
+                      alt="shakehand"
+                      width={100}
+                      height={100}
+                      className="sm:w-[100px] xs:w-[70px]"
+                    />
                   </div>
                 </div>
               </div>
@@ -105,10 +120,16 @@ const TopRatedServices = () => {
                     <h3 className="text-[28px] font-normal font-poly text-gray">
                       100,000+
                     </h3>
-                    <span>stylists & professionals</span>
+                    <span>Stylists & professionals</span>
                   </div>
                   <div className="absolute bottom-10 right-10 pl-3">
-                    <Image  src="/img/personlight.png" alt="shakehand" width={100} height={100}className="sm:w-[100px] max-xs:w-[70px]" />
+                    <Image
+                      src="/img/personlight.png"
+                      alt="shakehand"
+                      width={100}
+                      height={100}
+                      className="sm:w-[100px] max-xs:w-[70px]"
+                    />
                   </div>
                 </div>
               </div>

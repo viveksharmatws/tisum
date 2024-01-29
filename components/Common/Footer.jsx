@@ -37,7 +37,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="flex flex-col">
-              <h4 className="footer_heading">For business</h4>
+              <h4 className="footer_heading">For Business</h4>
               <ul className="flex flex-col">
                 <li className="link_footer_check">
                   <Link href="#"> For partners</Link>
@@ -71,7 +71,7 @@ const Footer = () => {
                   <Link href="#"> Facebook</Link>
                 </li>
                 <li className="link_footer_check">
-                  <Link href="#"> twitter</Link>
+                  <Link href="#"> Twitter</Link>
                 </li>
                 <li className="link_footer_check">
                   <Link href="#"> Linkdin</Link>
@@ -105,7 +105,7 @@ const Footer = () => {
             </div>
             <div>
               <Link href="#">
-                <span>Terms of user </span>
+                <span>Terms of use </span>
               </Link>
             </div>
           </div>

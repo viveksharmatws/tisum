@@ -4,21 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
-h1,h2,  h3, h5, h6 {
-  font-family: 'Poly', serif !important;
-}
-
-p ,h4,span,a{
-  font-family: 'Poppins', sans-serif !important;
-}
-
-.search-bar {
-  font-family: 'Poppins', sans-serif;
-}
 
 input {
   outline: none; 
@@ -31,11 +16,11 @@ input {
 @layer utilities {
 
   .Header{
-    @apply bg-[#344255] py-4 relative; 
+    @apply bg-[#344255] py-4   absolute top-0  ; 
   }
 
   .homebanner{
-    @apply bg-[#344255] relative  
+    @apply bg-[#344255]  py-[120px]  relative overflow-hidden
   }
   
   .container {
@@ -49,12 +34,12 @@ input {
   }
 
   .gradient_top{
-    @apply bg-[url("/img/GradientT.png")]   min-w-full min-h-full  absolute top-[-150px] right-0 bg-no-repeat bg-right !pointer-events-auto !z-10
+    @apply bg-[url("/img/GradientT.png")]  min-w-full min-h-full  opacity-80 absolute  right-0 bg-no-repeat bg-right-top !pointer-events-auto !z-10 
   }
 
   
   .gradient_bottom{
-    @apply bg-[url("/img/GradientB.png")] min-w-full min-h-full  absolute bottom-0 xl:bottom-[-135px] max-xl:opacity-50 left-0 bg-no-repeat bg-left !pointer-events-auto !z-10
+    @apply bg-[url("/img/GradientB.png")] min-w-full min-h-full bg-left-bottom    xl:bottom-[-255px] absolute  max-xl:opacity-50 left-0 bg-no-repeat  !pointer-events-auto    !z-10
   }
 
   .signup_button{
@@ -64,7 +49,7 @@ input {
 
 .homebanner_wrapper{
 
-  @apply flex flex-col pt-[120px] pb-[100px] xl:pb-[200px]
+  @apply flex flex-col pt-[120px] 
 }
 
 
@@ -94,7 +79,7 @@ input {
 }
 
 .expty_board{
-  @apply  border-[6px] border-black rounded-[28px] max-lg:w-full max-lg:h-screen mt-10 lg:min-w-[930px] max-md:h-svh lg:min-h-[729px] bg-white 
+  @apply  border-[6px] border-black rounded-[28px] max-lg:w-full max-lg:h-screen mt-10 lg:min-w-[930px] max-md:h-[400px] lg:min-h-[729px] bg-white 
 }
 
 }

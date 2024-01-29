@@ -8,7 +8,7 @@ const Newplaces = () => {
         <div className="container xl:px-10  mx-auto">
           <div className="flex flex-col space-t-10 items-start">
             <div className="mb-10  ">
-              <h1 className="font-poly text-left font-normal text-4xl leading-[48px] text-gray mb-4">
+              <h1 className=" text-left font-normal text-4xl font-poly leading-[48px] text-gray mb-4">
                 Check Out New Places
               </h1>
               <p className="text-[18px] text font-normal leading-6 xl:leading-8 !font-poppins">
@@ -16,7 +16,7 @@ const Newplaces = () => {
                 experience!
               </p>
             </div>
-            <div className=" grid grid-cols-1 md:grid-cols-3 gap-8 xssm::grid-cols-2 justify-center">
+            <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 xssm::grid-cols-2 justify-center">
               <div className="xl:max-w-[379px] w-full rounded-[12px]  border border-[#E1E6EF]">
                 <div className="overflow-hidden flex rounded-t-[12px]">
                   <Image
@@ -26,7 +26,7 @@ const Newplaces = () => {
                     height={300}
                   />
                 </div>
-                <div className=" p-5 flex-col flex ">
+                <div className="p-3 md:p-5 flex-col flex ">
                   <div className="flex justify-between mb-[12px]">
                     <div className=" flex items-center justify-center py-1 px-3 bg-yellow text-gray rounded-[16px] text-[12px] font-normal font-poppins">
                       Hair salon
@@ -72,7 +72,7 @@ const Newplaces = () => {
                     height={300}
                   />
                 </div>
-                <div className=" p-5 flex-col flex ">
+                <div className="p-3 md:p-5 flex-col flex ">
                   <div className="flex justify-between mb-[12px]">
                     <div className=" flex items-center justify-center py-1 px-3 bg-yellow text-gray rounded-[16px] text-[12px] font-normal font-poppins">
                     Decadence Hair & Beauty
@@ -118,7 +118,7 @@ const Newplaces = () => {
                     height={300}
                   />
                 </div>
-                <div className=" p-5 flex-col flex ">
+                <div className="p-3 md:p-5 flex-col flex ">
                   <div className="flex justify-between mb-[12px]">
                     <div className=" flex items-center justify-center py-1 px-3 bg-yellow text-gray rounded-[16px] text-[12px] font-normal font-poppins">
                     Nail salon

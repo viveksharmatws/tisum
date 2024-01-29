@@ -8,7 +8,7 @@ const BenefitsofTisum = () => {
       <div className='container'>
         <div className='py-20 flex flex-col space-y-[43px]'>
           <div className='space-y-2.5'>
-            <h2 className=' font-normal text-[27px] xl:text-[36px] font-poppins  text-gray text-center xl:leading-12 leading-8'>Benefits of using the Tisume platform</h2>
+            <h2 className=' font-normal text-[27px] xl:text-[36px] font-poly  text-gray text-center xl:leading-12 leading-8'>Benefits of using the Tisume platform</h2>
             <p className='font-normal text-[16px]  xl:text-[18px] font-poppins  text-gray text-center leading-normal '> Book appointments, and read reviews, all in one place.</p>
           </div>
           <div className='md:flex  gap-[50px] max-sm:flex-col justify-center mx-auto'>
@@ -18,8 +18,8 @@ const BenefitsofTisum = () => {
                 <div className='flex justify-center'>
                   <Image  src="/img/Ben1icon.png" width={500} height={500} className='w-[50px]' alt='benefit icon'/>
                 </div>
-                <div className='space-y-1'>
-                  <span className=' text-[16px] font-poppins font-medium leading-6 text-center text-gray'>
+                <div className='space-y-1 '>
+                  <span className='flex justify-center text-[16px] font-poppins font-medium leading-6 text-center text-gray'>
                   Reviews & Recommendations
                   </span >
                   <p className='text-[14px] font-poppins font-normal leading-5 text-center text-gray '>Receive online reviews and ratings, which can build trust and credibility with potential clients</p>
@@ -29,8 +29,8 @@ const BenefitsofTisum = () => {
                 <div className='flex justify-center'>
                   <Image  src="/img/Ben2icon.png" width={500} height={500} className='w-[50px]' alt='benefit icon'/>
                 </div>
-                <div className='space-y-1'>
-                  <span className=' text-[16px] font-poppins font-medium leading-6 text-center text-gray'>
+                <div className='space-y-1 '>
+                  <span className='flex justify-center text-[16px] font-poppins font-medium leading-6 text-center text-gray'>
                   Reviews & Recommendations
                   </span >
                   <p className='text-[14px] font-poppins font-normal leading-5 text-center text-gray '>Receive online reviews and ratings, which can build trust and credibility with potential clients</p>
@@ -46,8 +46,8 @@ const BenefitsofTisum = () => {
                 <div className='flex justify-center'>
                   <Image  src="/img/Ben3icon.png" width={500} height={500} className='w-[50px]' alt='benefit icon'/>
                 </div>
-                <div className='space-y-1'>
-                  <span className=' text-[16px] font-poppins font-medium leading-6 text-center text-gray'>
+                <div className='space-y-1 '>
+                  <span className='flex justify-center text-[16px] font-poppins font-medium leading-6 text-center text-gray'>
                   Reviews & Recommendations
                   </span >
                   <p className='text-[14px] font-poppins font-normal leading-5 text-center text-gray '>Receive online reviews and ratings, which can build trust and credibility with potential clients</p>
@@ -57,8 +57,8 @@ const BenefitsofTisum = () => {
                 <div className='flex justify-center'>
                   <Image  src="/img/Ben4icon.png" width={500} height={500} className='w-[50px]' alt='benefit icon'/>
                 </div>
-                <div className='space-y-1'>
-                  <span className=' text-[16px] font-poppins font-medium leading-6 text-center text-gray'>
+                <div className='space-y-1 '>
+                  <span className='flex justify-center text-[16px] font-poppins font-medium leading-6 text-center text-gray'>
                   Reviews & Recommendations
                   </span >
                   <p className='text-[14px] font-poppins font-normal leading-5 text-center text-gray '>Receive online reviews and ratings, which can build trust and credibility with potential clients</p>

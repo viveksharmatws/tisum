@@ -31,14 +31,14 @@ const Testimonials = () => {
               <div className="flex flex-col justify-between min-w-[300px]  ">
                 <div className="flex flex-col space-y-6 ">
                   <h2 className="text-[36px] font-poly font-normal leading-[48px] ">
-                    what people say about us
+                    What people say about us
                   </h2>
-                  <p className="text-[18px] font-normal gray_two font-poppins leading-normal">
-                    we are proud of what our reviewers have to say
+                  <p className="text-[18px] font-normal gray_two !font-poppins leading-normal">
+                    We are proud of what our reviewers have to say
                   </p>
                 </div>
                 <div className="flex justify-start gap-5 pt-12 xl:pt-6 ">
-                  <Image
+                  {/* <Image
                     src="/img/Arrowleft.png"
                     width={50}
                     height={50}
@@ -50,11 +50,15 @@ const Testimonials = () => {
                     width={50}
                     height={50}
                     alt="right arrow"
-                  />
+                  /> */}
+
+                  <CarouselPrevious size={50} className="w-[50px] h-[50px]" />
+                  <CarouselNext size={50} className="w-[50px] h-[50px]" />
                 </div>
               </div>
 
               <div className="flex  gap-[34px] w-full ">
+                
                 <CarouselContent>
                   <CarouselItem className="md:basis-1/2 ">
                     <div className="p-10 flex-col rounded-[50px] border border-gray_four space-y-[35px] relative">
@@ -333,7 +337,7 @@ const Testimonials = () => {
                     </div>
                   </CarouselItem>
                 </CarouselContent>
-              </div>  
+              </div>
             </div>
           </div>
         </section>
