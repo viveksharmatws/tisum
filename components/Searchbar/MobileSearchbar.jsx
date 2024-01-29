@@ -48,7 +48,7 @@ const MobileSearchbar = () => {
     <>
       <div className="flex flex-col items-center mx-10">
         <div className="w-full grid  grid-cols-1 xssm:grid-cols-2  md:grid-cols-4  bg-white  rounded-2xl  ">
-          <div className="w-full py-2  px-4  flex gap-2 hover:bg-slate-200 group text-white rounded-tl-2xl md:rounded-l-2xl ">
+          <div className="w-full py-2  px-4  flex gap-2 hover:bg-slate-200 group text-white  rounded-t-2xl xssm:rounded-tl-2xl md:rounded-l-2xl ">
             <Image
               alt="search any service logo"
               src="/img/Search.svg"
@@ -62,7 +62,7 @@ const MobileSearchbar = () => {
               "
             />
           </div>
-          <div className="w-full py-2  px-4  flex gap-2 hover:bg-slate-200 group   max-md:rounded-tr-2xl">
+          <div className="w-full py-2  px-4  flex gap-2 hover:bg-slate-200 group  max-xssm:rounded-none max-md:rounded-tr-2xl">
             <Image
               alt="search with location logo"
               src="/img/Location.svg"
@@ -75,7 +75,7 @@ const MobileSearchbar = () => {
               className="focus:outline-none boder-none  bg-transparent  group-hover:placeholder:text-black focus-visible-none w-full placeholder:text-black text-[16px]"
             />
           </div>
-          <div className="w-full p-4  flex gap-2 relative hover:bg-slate-200  max-md:rounded-bl-2xl">
+          <div className="w-full p-4  flex gap-2 relative hover:bg-slate-200 max-xssm:rounded-none max-md:rounded-bl-2xl">
             <Popover>
               <PopoverTrigger asChild className="cursor-pointer">
                 <div className="flex gap-2 ">
@@ -122,7 +122,7 @@ const MobileSearchbar = () => {
             </Popover>
           </div>
           <Popover>
-            <div className="w-full p-4  flex gap-2 group  hover:bg-slate-200  rounded-br-2xl md:rounded-r-2xl">
+            <div className="w-full p-4  flex gap-2 group  hover:bg-slate-200 rounded-b-2xl xssm:rounded-br-2xl md:rounded-r-2xl">
               <PopoverTrigger asChild>
                 <div className="flex gap-2">
                   <Image
